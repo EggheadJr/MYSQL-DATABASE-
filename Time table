@@ -1,0 +1,12 @@
+create table time_table (
+ my_date date,
+ my_time time,
+ my_datetime datetime
+ );
+
+insert into time_table
+values (current_date() + 1, null , null ());
+
+
+
+select*from time_table;
