@@ -1,0 +1,10 @@
+create table employees (
+
+employee_id int,
+first_name varchar(50), 
+las_name varchar(50),
+Position_name varchar(50),
+hourly_pay decimal(5,2), 
+hire_date datetime
+
+);
