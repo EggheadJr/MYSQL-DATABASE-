@@ -1,0 +1,7 @@
+update employees
+set hourly_pay = 30.50,
+    hire_date = "2023-07-12"
+    
+where employee_id = 1 ;
+
+select * from employees;
