@@ -1,0 +1,13 @@
+alter table employees
+modify column hire_date date ;
+ 
+insert into employees 
+values (1,"Egghead","jr","CEO",20.50,"2023-01-02","eggheadjr@yahoo.com"),
+       (2,"Amanda","löfstrom","Admin",20.50,"2023-01-02","eggheadjr@yahoo.com"),
+       (3,"Luis","Gutierrez","Lawyer",20.50,"2023-01-02","eggheadjr@yahoo.com"),
+       (4,"Gelen","Pulgarin","Lawyer",20.50,"2023-01-02","eggheadjr@yahoo.com"),
+       (5,"Sergio","Gutierrez","Proyect Manager",20.50,"2023-01-02","eggheadjr@yahoo.com"),
+       (6,"Thea","Löfstrom","Student",20.50,"2023-01-02","eggheadjr@yahoo.com")
+       ;
+
+select * from employees;
